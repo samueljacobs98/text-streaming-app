@@ -1,0 +1,21 @@
+{
+  "name": "source",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "serve": "pm2 start index.js --name='streaming server'",
+    "stop": "pm2 stop index.js --name='streaming server'",
+    "monitor": "pm2 monit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "lorem-ipsum": "^2.0.8"
+  }
+}
